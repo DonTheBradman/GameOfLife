@@ -25,7 +25,7 @@ namespace GameOfLife
         public void SetupGame()
         {
             //Set up the game grids determined by width/height parameters
-            _gridManager.SetupGrids(3, 10);
+            _gridManager.SetupGrids(10, 10);
             //Displays initial seed for the grid
             DisplayGrid(_gridManager.currentGrid);
         }

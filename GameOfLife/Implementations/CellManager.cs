@@ -67,7 +67,7 @@ namespace GameOfLife
                 FutureCell.isAlive = false;
             }
             //if a cell has exactly 2 or 3 living cell neighbours then it will become alive or stay alive.
-            else if (pLivingNeighbours == 3 || pLivingNeighbours == 2)
+            else if (pLivingNeighbours == 3)
             {
                 FutureCell.isAlive = true;
             }
