@@ -14,7 +14,7 @@ namespace GameOfLife
         //Public property to access the future grid in the grid manager
         public iGrid futureGrid { get; set; }
         //exposes the setupGrids method so that the kernel can call upon the grid manager to initialise the grids
-        void SetupGrids(int pWidth, int pHeight);
+        void SetupGrids(int pHeight, int pWidth);
         //exposes the SetFutueGridToCurrent method so that the kernel can call upon the grid manager to swap the grids when needed.
         void SetFutureGridToCurrent();
 

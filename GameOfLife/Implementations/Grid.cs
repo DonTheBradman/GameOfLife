@@ -60,9 +60,9 @@ namespace GameOfLife
         {
             iCell newCell;
             
-            for (int x = 0; x < _grid.GetLength(0); x++)
+            for (int x = 0; x < _grid.GetLength(1); x++)
             {
-                for (int y = 0; y < _grid.GetLength(1); y++)
+                for (int y = 0; y < _grid.GetLength(0); y++)
                 {
                     newCell = new Cell();
                     //Set new cell to alive or dead

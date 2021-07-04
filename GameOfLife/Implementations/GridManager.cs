@@ -18,7 +18,7 @@ namespace GameOfLife
 
         private iGrid _futureGrid;
         //Method to initialise grids, take width, height
-        public void SetupGrids(int pWidth, int pHeight)
+        public void SetupGrids(int pHeight, int pWidth)
         {
             //Initialise _currentGrid
             _currentGrid = new Grid(pWidth, pHeight);
